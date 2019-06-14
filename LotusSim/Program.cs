@@ -107,7 +107,7 @@ namespace LotusSim
             var chosenPort = Console.ReadLine();
             try
             {
-                port = new SerialPort(chosenPort, 9600, Parity.None, 8, StopBits.One);
+                port = new SerialPort(chosenPort, 57600, Parity.None, 8, StopBits.One);
             }
             catch (ArgumentException)
             {
